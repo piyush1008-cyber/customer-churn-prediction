@@ -1,11 +1,13 @@
 # 📊 Telecom Customer Churn Prediction
 
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![CI](https://github.com/piyush1008-cyber/customer-churn-prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/piyush1008-cyber/customer-churn-prediction/actions)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458?style=flat&logo=pandas&logoColor=white)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit.io)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
-> **An end-to-end machine learning pipeline for predicting customer churn in the telecom industry — from raw data to deployed model.**
+> **An end-to-end machine learning pipeline & interactive Streamlit web application for predicting customer churn in the telecom industry — from raw data to real-time risk scoring.**
 
 ---
 
@@ -175,6 +177,17 @@ python main.py
 ---
 
 ## 💻 Usage
+
+### 🌐 Launch Interactive Streamlit Web UI
+```bash
+streamlit run streamlit_app.py
+```
+Opens an interactive dashboard in your browser with customer profile sliders, real-time risk gauges, retention recommendations, and batch CSV scoring!
+
+### Run Pytest Test Suite
+```bash
+pytest -v
+```
 
 ### Run Full Pipeline
 ```bash
